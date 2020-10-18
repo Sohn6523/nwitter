@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-
+import App from './components/App';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -10,3 +9,6 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+
+// unset HOST --> MAC local host 세팅 
+// npm start 
